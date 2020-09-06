@@ -9,24 +9,27 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Chat by Zheenykaa</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+	
+<div id='coomeet_container'>
+	<script type='text/javascript'>
+		var _coomeet = [];
+		_coomeet['PartnerId'] = 15993497887849;
+		_coomeet['Bingo'] = 'MyBlog';
+		(function() {
+			var coomeet = document.createElement('script'); coomeet.type = 'text/javascript'; coomeet.async = true;
+			coomeet.src = 'https://i.coomeet.com/js/code.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(coomeet, s);
+		})();
+	</script>
+</div>
+</html>
 
 ### Jekyll Themes
 
